@@ -190,7 +190,9 @@ header{
 
 .displayedCards{
     display: flex;
-    justify-content: space-around
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto 116px;
 }
 
 .cards{
@@ -201,6 +203,7 @@ header{
     padding-bottom: 33px;
     padding-left: 20px;
     padding-bottom: 14px;
+    border-radius: 5px;
     
 }
 
