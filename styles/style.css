@@ -302,6 +302,7 @@ header{
     line-height: 23px;
     font-family: Montserrat;
     color: #032624;
+    list-style-type: none;
 }
 
 .newsBackground{
