@@ -271,12 +271,22 @@ header{
     max-height: 306px;
 }
 
+
+#textReqAndDetA{ 
+    margin-left: 142px;
+}
+
+#textReqAndDetB{ 
+    margin-right: 142px;
+}
+
 .textReqAndDet h2{
     color: #0EAFAC;
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 600;
     margin-top: 50px;
+    
 }
 
 .textReqAndDet h3{ 
