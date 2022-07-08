@@ -104,7 +104,7 @@ header{
     line-height: 31px;
 }
 
-.iconesIntro{
+.iconIntro{
     display: flex;
     flex-direction: column;
     height: 303px;
@@ -117,6 +117,7 @@ header{
 #logoRocket{ 
     width: 138px;
     height: 157px;
+    margin-bottom: 70px;
 }
 
 #rocketTalents{
