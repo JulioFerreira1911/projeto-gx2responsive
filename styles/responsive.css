@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Header
+*  Breakpoint was decided to be 1024px width-wise
+*  And extra breakpoint was added to fix the font-size of .menuFlex 510px of max-widht
+*/
+@media (max-width: 1024px){
+    .headerFlex{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .headerFlex button{
+        flex-wrap: wrap;
+        width: 192px;
+        height: 38px;
+        font-size: 21px;
+    }
+
+    .menuFlex{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .menuFlex li{
+        font-size: 3.5vw;
+    }
+    @media (max-width: 512px){
+        .menuFlex li{
+            font-size: 0.8em;
+        }
+    }
+}
+
+
+@media (max-width: 1024px){ 
+
+}
